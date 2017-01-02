@@ -1,0 +1,10 @@
+c:\users\alokk\documents\visual studio 2013\Projects\DATA_PROJECT\DATA_PROJECT\bin\DATA_PROJECT.dll.config
+c:\users\alokk\documents\visual studio 2013\Projects\DATA_PROJECT\DATA_PROJECT\bin\DATA_PROJECT.dll
+c:\users\alokk\documents\visual studio 2013\Projects\DATA_PROJECT\DATA_PROJECT\bin\DATA_PROJECT.pdb
+c:\users\alokk\documents\visual studio 2013\Projects\DATA_PROJECT\DATA_PROJECT\obj\Debug\DATA_PROJECT.csprojResolveAssemblyReference.cache
+c:\users\alokk\documents\visual studio 2013\Projects\DATA_PROJECT\DATA_PROJECT\obj\Debug\DATA_PROJECT.dll
+c:\users\alokk\documents\visual studio 2013\Projects\DATA_PROJECT\DATA_PROJECT\obj\Debug\DATA_PROJECT.pdb
+c:\users\alokk\documents\visual studio 2013\Projects\DATA_PROJECT\DATA_PROJECT\bin\Newtonsoft.Json.dll
+c:\users\alokk\documents\visual studio 2013\Projects\DATA_PROJECT\DATA_PROJECT\bin\Newtonsoft.Json.xml
+c:\users\alokk\documents\visual studio 2013\Projects\DATA_PROJECT\DATA_PROJECT\obj\Debug\DATA_PROJECT.csproj.ResolveComReference.cache
+D:\vb\Solution\DATA_PROJECT\DATA_PROJECT\obj\Debug\Data_Project.csprojResolveAssemblyReference.cache

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Resource/JS/jquery-1.6.4.min.js"></script>
+    <script src="../Resource/JS/angular.min.js"></script>
+    <script src="../Resource/JS/ui-grid.js"></script>
+    <script src="../Resource/JS/angular-animate.js"></script>
+    <script src="../Resource/JS/angular-touch.js"></script>
+    <script src="../Resource/APPLICATION/index.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../Resource/CSS/ui-grid.css">
+    <link rel="stylesheet" type="text/css" href="../Resource/CSS/bootstrap.css">
+    <!--<style>
+        
+    </style>-->
+</head>
+<body>
+    <div ng-app="mainApp" ng-controller="mainController">
+
+        <div ui-grid="gridOptions1" ui-grid-selection ui-grid-edit ui-grid-row-edit ui-grid-exporter ui-grid-pinning ui-grid-move-columns
+             ui-grid-pagination class="grid">
+        </div>
+        <div style="height:100px">
+
+        </div>
+        <div>
+            <p style="font-size:20px">Unique Report Link  <a href="Report.html" target="_blank"> Click here </a> </p>
+        </div>
+
+        <div class="cantanar" style="background-color: black; height:150px; width:80% ; align:center">
+
+            <table>
+                <tr>
+                    &nbsp;
+                </tr>
+                <tr>
+                    <td><p style="">Address</p></td>
+                    <td><input type="text" value="{{EditDataRecord.F2}}" ng-model="EditDataRecord.F2" /></td>
+                    <td>Street</td>
+                    <td><input type="text" value="{{EditDataRecord.F3}}" ng-model="EditDataRecord.F3" /></td>
+                    <td>Side</td>
+                    <td><input type="text" value="{{EditDataRecord.F4}}" ng-model="EditDataRecord.F4" /></td>
+                    <td>Site</td>
+                    <td><input type="text" value="{{EditDataRecord.F5}}" ng-model="EditDataRecord.F5" /></td>
+                    
+                </tr>
+                <tr>
+                   
+                    <td>Species</td>
+                    <td><input type="text" value="{{EditDataRecord.F6}}" ng-model="EditDataRecord.F6" /></td>
+                    <td>DBH</td>
+                    <td><input type="text" value="{{EditDataRecord.F6}}" ng-model="EditDataRecord.F7" /></td>
+                    <td>Condition</td>
+                    <td><input type="text" value="{{EditDataRecord.F6}}" ng-model="EditDataRecord.F8" /></td>
+                    <td>Submit</td>
+                    <td><button ng-click="Submit('{{EditDataRecord.F1}}');">Submit</button></td>
+                </tr>
+                
+            </table>
+
+        </div>
+    </div>
+
+</body>
+</html>
